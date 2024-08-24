@@ -48,7 +48,7 @@
         <!-- Nav logo -->
         <div class="navbar-start flex-initial">
           <a class="flex gap-2 items-center">
-            <i class="fa-solid fa-arrow-right-long rounded-full -rotate-45 bg-green-500 p-2"></i>
+            <i class="fa-solid fa-arrow-right-long rounded-full -rotate-45 bg-lime-400 p-2"></i>
             <span class="text-[1.75rem] lg:text-[2rem] font-extrabold">Rinterio</span>
           </a>
         </div>
@@ -69,9 +69,9 @@
 
           <!-- card & button -->
           <div class="hidden md:flex gap-1">
-            <a class="btn btn-base-100 bg-white rounded-full border" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a class="btn btn-base-100 bg-white rounded-full border" href="#"><i class="fa-solid fa-cart-plus"></i></a>
-            <a class="btn bg-green-400 rounded-full items-center ">
+            <a class="btn btn-base-100 bg-white hover:bg-lime-500 hover:text-white rounded-full border" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a class="btn btn-base-100 bg-white hover:bg-lime-500 hover:text-white rounded-full border" href="#"><i class="fa-solid fa-cart-plus"></i></a>
+            <a class="btn bg-lime-400 hover:bg-lime-500 rounded-full items-center ">
               <span class="text-xl font-extrabold">Book Consult</span>
               <i class="fa-solid fa-arrow-right-long rounded-full -rotate-45 bg-slate-900 text-white p-2"></i>
             </a>
@@ -80,7 +80,7 @@
           <!-- dropdown menu -->
           <div class="dropdown">
             <div class="lg:hidden">
-              <a class="btn btn-base-100 bg-white rounded-full border" href="#">
+              <a class="btn btn-base-100 bg-white hover:bg-lime-500 hover:text-white rounded-full border" href="#">
                 <i class="fa-solid fa-bars"></i>
               </a>
             </div>
@@ -134,12 +134,12 @@
       <section class="py-8 md:py-24 grid lg:grid-cols-2 lg:items-center gap-9">
         <!-- Design-content -->
         <div>
-          <!-- vactor image -->
+          <!--Top vactor image -->
           <figure class="relative">
             <img  class="absolute -top-16 -left-14 hidden lg:block" src="./assets/Vector.png" alt="indecator picture">
           </figure>
 
-          <!-- text -->
+          <!-- Header text -->
           <div class="text-center lg:text-left space-y-4">
             <!-- about-btn -->
             <button class="px-4 py-2 bg-white rounded-full text-base font-bold">
@@ -188,8 +188,9 @@
         </div>
 
         <!-- Design image -->
-        <div class="relative h-[60vw] md:h-[45vw] lg:h-full rounded-2xl overflow-hidden ">
-          <img class="absolute -top-1/3 md:top-4/5 lg:top-0 left-0 w-full" src="./assets/Rectangle.png" alt="">
+        <div class="relative h-[60vw] md:h-[45vw] rounded-2xl overflow-hidden ">
+          <img class="absolute -top-1/3 w-full lg:hidden" src="./assets/Rectangle.png" alt="">
+          <img class="w-full lg:block" src="./assets/Rectangle.png" alt="">
         </div>
       </section>
 
@@ -421,7 +422,7 @@
       </section>
       
     </main>
-    
+
     <!-- Form section -->
      <section class="px-4 lg:px-0 py-8 md:py-16 lg:py-24 border-4 md:border-6 border-white bg-no-repeat bg-cover bg-center" style="background-image: url(./assets/bg.jpg);" >
       <!-- Forn Content -->
@@ -442,11 +443,11 @@
       </div>
       <!-- Form input -->
        <form action="#" class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
-        <input class="py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="text" placeholder="First Name*">
-        <input class="py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="text" placeholder="Last name*">
-        <input class="py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="text" placeholder="Phone Number*">
-        <input class="py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="email" placeholder="Email Number*">
-        <textarea class="p-5 md:col-span-2 rounded-3xl h-56 placeholder:font-medium" placeholder="Write your message here"></textarea>
+        <input class="outline-none py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="text" placeholder="First Name*">
+        <input class=" outline-none py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="text" placeholder="Last name*">
+        <input class=" outline-none py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="text" placeholder="Phone Number*">
+        <input class=" outline-none py-4 px-5 md:p-5 rounded-full placeholder:font-medium" type="email" placeholder="Email Number*">
+        <textarea class=" outline-none p-5 md:col-span-2 rounded-3xl h-56 placeholder:font-medium" placeholder="Write your message here"></textarea>
 
         <button class="py-3 space-x-2 bg-lime-400 hover:bg-lime-500 md:col-span-2 rounded-[2rem]">
           <span class="text-xl font-extrabold">Send Mail</span>
